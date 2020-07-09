@@ -9,6 +9,7 @@
       <input type="password" v-model="password" />
     </label>
     <p class="submit" @click="submit">提交</p>
+    <article>fb5873a787b0caeb3030999e804ba53e37512316</article>
     <footer>测试HOOK12</footer>
   </div>
 </template>
