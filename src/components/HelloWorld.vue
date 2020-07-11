@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">hello home</div>
+  <div class="hello">{{ msg }}</div>
 </template>
 
 <script lang="ts">
@@ -7,7 +7,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "HelloWorld",
-  props: {}
+  props: { msg: String }
 });
 </script>
 
